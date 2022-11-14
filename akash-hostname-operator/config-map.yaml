@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: akash-hostname-operator-boot
+  namespace: akash-services
+data:
+  run.sh: |
+    #!/bin/sh
+    exec /bin/akash provider hostname-operator

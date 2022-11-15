@@ -6,7 +6,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: hostname-operator
     app.kubernetes.io/name: akash-hostname-operator
-    app.kubernetes.io/version: 0.16.6
+    app.kubernetes.io/version: 0.16.8
 spec:
   type: ClusterIP
   ports:

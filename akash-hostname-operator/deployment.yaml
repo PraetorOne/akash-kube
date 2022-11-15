@@ -6,7 +6,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: hostname-operator
     app.kubernetes.io/name: akash-hostname-operator
-    app.kubernetes.io/version: 0.16.8
+    app.kubernetes.io/version: 0.16.6
 spec:
   replicas: 1
   selector:
@@ -25,7 +25,7 @@ spec:
       containers:
         - name: akash-hostname-operator
           securityContext: {}
-          image: ghcr.io/ovrclk/akash:0.16.8
+          image: ghcr.io/ovrclk/akash:0.16.6
           imagePullPolicy: IfNotPresent
           command: ["/bin/sh", "/boot/run.sh"]
           ports:

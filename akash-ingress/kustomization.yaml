@@ -1,0 +1,12 @@
+resources:
+  - ingress-class.yaml
+  - admission-webhook.yaml
+  - cluster-role-binding.yaml
+  - cluster-role.yaml
+  - configmap.yaml
+  - controller-daemonset.yaml
+  - controller-service.yaml
+  - service-account.yaml
+  - role-binding.yaml
+  - role.yaml
+  - webhook-service.yaml

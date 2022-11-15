@@ -1,0 +1,9 @@
+resources:
+  - config-map.yaml
+  - deployment.yaml
+  - service.yaml
+  - rbac.yaml
+  - service-account.yaml
+  - cluster-role.yaml
+
+namespace: akash-services
